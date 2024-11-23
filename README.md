@@ -25,7 +25,12 @@ This repository also provides a Dockerfile and Makefile as references for runnin
       ```bash
       latexmk test
       ```
-    - The default engine is **upLaTeX**. You can switch to **pdfLaTeX** or **pLaTeX** by modifying the `.latexmkrc` file.
+    - The default engine is **upLaTeX**. You can switch to **pdfLaTeX** or **pLaTeX** by editing the `.latexmkrc` file.
+    - To change the font style used in the compiled document, see the sqitch_font script: 
+      ```
+      ./switch_font.sh
+      ```
+      Currently, you can switch between Mincho (`ipaex`) and Gothic (`noEmbed`) fonts by editing the `switch_font.sh` script.
 
 # Reference
 - [TeX.gitignore](https://github.com/github/gitignore/blob/main/TeX.gitignore)
