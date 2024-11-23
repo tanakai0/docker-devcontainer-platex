@@ -12,6 +12,8 @@ RUN sed -i 's|http://archive.ubuntu.com/ubuntu|http://jp.archive.ubuntu.com/ubun
     texlive-base \
     texlive-latex-recommended \
     texlive-latex-extra \
+    texlive-fonts-recommended \
+    texlive-science \
     texlive-lang-japanese \
     latexmk \
     fonts-noto-cjk \
