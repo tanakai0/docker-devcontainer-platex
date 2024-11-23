@@ -1,0 +1,12 @@
+{
+    "name": "LatexWriting",
+    // "build": {
+    //   "dockerfile": "../Dockerfile"
+    // },
+    "image": "tanakai/devcontainer-platex-ubuntu22:latest",
+    "workspaceFolder": "/workdir",
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workdir,type=bind"
+    ]
+}
+  
