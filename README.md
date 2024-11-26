@@ -23,7 +23,7 @@ This repository also provides the Dockerfile and Makefile as references for runn
        ```
     - Or compile a specific `.tex` file with:
       ```bash
-      latexmk test
+      latexmk sample
       ```
     - The default engine is **upLaTeX**. You can switch to **pdfLaTeX** or **pLaTeX** by editing the `.latexmkrc` file.
     - To change the Japanese font style used in the compiled document, use the script: 
